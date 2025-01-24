@@ -24,7 +24,7 @@ This project is a simple TypeScript-based application that fetches advertisement
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/adrop-api-test.git
+   git clone https://github.com/Navong/adrop-api-test.git
    cd adrop-api-test
    ```
 
