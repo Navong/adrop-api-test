@@ -45,12 +45,9 @@ export async function fetchAds(): Promise<AdResult> {
         } else {
             throw new Error('Result is null despite success status.');
         }
-    } catch (error) {
-        if (error instanceof Error) {
-            throw new Error(`Failed to fetch ads: ${error.message}`);
-        } else {
-            throw new Error('Failed to fetch ads: Unknown error');
-        }
+    } catch (error: any) {
+        throw new Error(`Failed to fetch ads: ${(error as Error).message}`);
     }
 }
+
 
