@@ -40,16 +40,6 @@ This project is a simple TypeScript-based application that fetches advertisement
    API_KEY=your_adrop_api_key_here
    ```
 
-## Usage
-
-1. Run the script to fetch ads:
-
-   ```bash
-   npm run start
-   ```
-
-2. The response will be logged to the console.
-
 ## Testing
 
 Run the Jest test suite to verify functionality:
